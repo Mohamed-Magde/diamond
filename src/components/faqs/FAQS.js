@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./scss/main.css";
 import img from "../../assets/img/engagement-diamond.png";
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 const FAQS = () => {
   const data = [
     {
@@ -47,42 +49,50 @@ const FAQS = () => {
   return (
     <div className="faqs">
       <div className="container">
-        <div className="faqs-left">
-          <div className="faqs-left-title">
-            <span>Custom Design</span>
-            <p>FAQS</p>
-          </div>
-          {data.map((item) => {
-            const { id, title, desc } = item;
-            return (
-              <div
-                className={
-                  answer === id ? "faqs-left-block" : "faqs-left-block faqs-low"
-                }
-                key={id}
-              >
-                <div className="faqs-left-block-title">
-                  <span>{title}</span>
-                  <i
-                    id={id}
-                    onClick={handleAnswer}
-                    className={
-                      answer === id ? "fas fa-arrow-right" : "fas fa-times"
-                    }
-                  ></i>
-                </div>
+        <Zoom>
+          <div className="faqs-left">
+            <div className="faqs-left-title">
+              <span>Custom Design</span>
+              <p>FAQS</p>
+            </div>
+            {data.map((item) => {
+              const { id, title, desc } = item;
+              return (
                 <div
-                  className={id === answer ? "faqs-left-block-desc" : "hidden"}
+                  className={
+                    answer === id
+                      ? "faqs-left-block"
+                      : "faqs-left-block faqs-low"
+                  }
+                  key={id}
                 >
-                  <p>{desc}</p>
+                  <div className="faqs-left-block-title">
+                    <span>{title}</span>
+                    <i
+                      id={id}
+                      onClick={handleAnswer}
+                      className={
+                        answer === id ? "fas fa-arrow-right" : "fas fa-times"
+                      }
+                    ></i>
+                  </div>
+                  <div
+                    className={
+                      id === answer ? "faqs-left-block-desc" : "hidden"
+                    }
+                  >
+                    <p>{desc}</p>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
-        </div>
-        <figure className="faqs-right">
-          <img src={img} alt="" />
-        </figure>
+              );
+            })}
+          </div>
+        </Zoom>
+        <Fade right>
+          <figure className="faqs-right">
+            <img src={img} alt="" />
+          </figure>
+        </Fade>
       </div>
     </div>
   );

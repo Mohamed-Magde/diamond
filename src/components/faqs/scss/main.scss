@@ -151,3 +151,132 @@ $light-grey : #C9C9C9;
     transform: rotate(0deg);
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .faqs {
+    margin-bottom: 5em;
+    margin-top: 8em;
+    color: $secondary;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-left {
+      width: 100%;
+      margin-right: 0em;
+      margin-bottom: 2em;
+
+      &-title {
+        margin-bottom: 1em;
+
+        span {
+          font-size: 18px;
+          color: $primary;
+        }
+
+        p {
+          font-size: 30px;
+        }
+      }
+
+
+
+      &-block {
+        transition: all .5s;
+        height: 174px;
+        margin-top: 1em;
+        border: 2px solid $primary;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        overflow: hidden;
+
+        &-title {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          width: 90%;
+          margin: 0 auto;
+          margin-bottom: 1.5em;
+
+          span {
+            display: block;
+            font-size: 18px;
+
+          }
+
+          i {
+            color: $primary;
+            font-size: 1.3rem;
+            display: block;
+            animation: round 1s;
+            cursor: pointer;
+          }
+        }
+
+        &-desc {
+          position: relative;
+          width: 90%;
+          margin: 0 auto;
+
+
+          &::after {
+            content: '';
+            position: absolute;
+            top: -.5em;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: rgba(#707070, .4);
+          }
+
+          p {
+
+            color: #C9C9C9;
+
+          }
+        }
+
+      }
+
+
+    }
+
+    .hidden {
+      transform: translateY(-100%);
+      width: 90%;
+      position: absolute;
+      transition: all .5s;
+      z-index: -11;
+
+      opacity: 0;
+
+      p {
+        color: #fff;
+      }
+
+    }
+
+    &-low {
+      height: 82px;
+      transition: all .5s;
+      padding: 0;
+
+      .faqs-left-block-title {
+
+        i {
+
+          animation: roundOp 1s;
+        }
+
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}

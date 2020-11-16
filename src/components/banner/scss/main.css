@@ -4,7 +4,7 @@
 }
 
 .banner::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -47,23 +47,23 @@
 
 .banner .left-title {
   text-align: left;
-  margin-top: .5em;
+  margin-top: 0.5em;
   width: 570px;
   height: 176px;
   font-size: 2.2rem;
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .banner .left-title .first {
-  color: #C9A664;
+  color: #c9a664;
 }
 
 .banner .left-title .second {
   font-size: 3.375rem;
   font-weight: bold;
-  color: #C9A664;
+  color: #c9a664;
 }
 
 .banner .left-desc {
@@ -78,7 +78,7 @@
   width: 248px;
   height: 57px;
   color: #fff;
-  background-color: #C9A664;
+  background-color: #c9a664;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,8 +89,11 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 .banner .btn-primary:hover {
@@ -106,5 +109,54 @@
   display: block;
   font-size: 17px;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+  .banner {
+    height: 757.83px;
+    position: relative;
+  }
+  .banner::after {
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .banner .right {
+    display: none;
+  }
+  .banner .left {
+    z-index: 22;
+    background-color: transparent;
+    padding-top: 2em;
+    color: #fff;
+    padding-left: 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .banner .left img {
+    width: 100px;
+    height: 110px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  .banner .left-title {
+    text-align: center;
+    margin-top: 0.5em;
+    width: 100%;
+    height: 120px;
+  }
+  .banner .left-desc {
+    width: 100%;
+  }
+  .banner .btn-primary {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 4em;
+    height: 57px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

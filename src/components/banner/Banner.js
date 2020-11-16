@@ -2,6 +2,8 @@ import React from "react";
 import "./scss/main.css";
 import bg from "../../assets/img/hero-img.png";
 import logo from "../../assets/img/logo.png";
+
+import Fade from "react-reveal/Fade";
 const Banner = () => {
   const data = {
     p:
@@ -9,22 +11,24 @@ const Banner = () => {
   };
   return (
     <div className="banner">
-      <div className="left">
-        <img className="left-logo" src={logo} alt="" />
-        <p className="left-title">
-          <span className="first">Let us</span> spark your interest <br /> to
-          make your dream Ring/Gem <span className="second">come true! </span>
-        </p>
-        <p className="left-desc">{data.p}</p>
-        <a href="#" className="btn-primary">
-          <p>
-            Start Your Custom Design <span>Right Now</span>
+      <Fade left>
+        <div className="left">
+          <img className="left-logo" src={logo} alt="" />
+          <p className="left-title">
+            <span className="first">Let us</span> spark your interest <br /> to
+            make your dream Ring/Gem <span className="second">come true! </span>
           </p>
-        </a>
-      </div>
-      <figure className="right">
-        <img src={bg} alt="" />
-      </figure>
+          <p className="left-desc">{data.p}</p>
+          <a href="#form" className="btn-primary">
+            <p>
+              Start Your Custom Design <span>Right Now</span>
+            </p>
+          </a>
+        </div>
+        <figure className="right">
+          <img src={bg} alt="" />
+        </figure>
+      </Fade>
     </div>
   );
 };

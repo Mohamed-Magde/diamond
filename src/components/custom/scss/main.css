@@ -111,4 +111,17 @@
   right: 5%;
   top: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+  .custom-wrapper .back {
+    top: 80%;
+    left: 5%;
+    height: 40px;
+  }
+  .custom-wrapper .next {
+    right: 5%;
+    top: 80%;
+    height: 40px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

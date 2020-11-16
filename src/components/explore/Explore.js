@@ -2,6 +2,8 @@ import React from "react";
 import img from "../../assets/img/explore.png";
 import comma from "../../assets/img/comma.png";
 import "./scss/main.css";
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 const Explore = () => {
   const data = {
     p:
@@ -9,16 +11,20 @@ const Explore = () => {
   };
   return (
     <figure className="explore">
-      <figcaption>
-        <img src={comma} alt="" />
-        <p>{data.p}</p>
-        <a href="" className="btn-primary">
-          <p>
-            Start Your Custom Design <span> Right Now </span>
-          </p>
-        </a>
-      </figcaption>
-      <img className="explore-bg" src={img} alt="" />
+      <Zoom>
+        <figcaption>
+          <img src={comma} alt="" />
+          <p>{data.p}</p>
+          <a href="#form" className="btn-primary">
+            <p>
+              Start Your Custom Design <span> Right Now </span>
+            </p>
+          </a>
+        </figcaption>
+      </Zoom>
+      <Fade right>
+        <img className="explore-bg" src={img} alt="" />
+      </Fade>
     </figure>
   );
 };

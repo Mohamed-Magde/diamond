@@ -110,3 +110,34 @@ $light-grey : #C9C9C9;
     }
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .custom {
+
+
+
+
+    &-wrapper {
+
+
+
+
+
+
+
+
+      .back {
+        top: 80%;
+        left: 5%;
+        height: 40px;
+      }
+
+      .next {
+        right: 5%;
+        top: 80%;
+        height: 40px;
+      }
+    }
+  }
+}
