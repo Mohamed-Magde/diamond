@@ -1,0 +1,229 @@
+.form {
+  position: relative;
+  height: 897px;
+  margin-top: -.6em;
+}
+
+.form-title {
+  padding-top: 4em;
+  margin-left: 1em;
+}
+
+.form-title p {
+  color: #C9A664;
+  font-size: 18px;
+  text-align: center;
+}
+
+.form-title span {
+  display: block;
+  font-size: 30px;
+  color: #121619;
+}
+
+.form-wrapper {
+  width: 730px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-wrapper textarea {
+  width: 730px;
+  display: block;
+  height: 117px;
+  padding: 1em;
+  padding-top: 1.5em;
+  border: 1px solid #C9C9C9;
+  background-color: #fff;
+  resize: none;
+  margin-top: 2em;
+  font-family: inherit;
+}
+
+.form-wrapper textarea::-webkit-input-placeholder {
+  color: #C9C9C9;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.form-wrapper textarea:-ms-input-placeholder {
+  color: #C9C9C9;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.form-wrapper textarea::-ms-input-placeholder {
+  color: #C9C9C9;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.form-wrapper textarea::placeholder {
+  color: #C9C9C9;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.form-wrapper-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.5em;
+  width: 730px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-wrapper-flex input {
+  width: 348px;
+  height: 64px;
+  border: 1px solid #C9C9C9;
+  background-color: #fff;
+  padding-left: 1em;
+}
+
+.form-wrapper-flex input::-webkit-input-placeholder {
+  color: #C9C9C9;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.form-wrapper-flex input:-ms-input-placeholder {
+  color: #C9C9C9;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.form-wrapper-flex input::-ms-input-placeholder {
+  color: #C9C9C9;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.form-wrapper-flex input::placeholder {
+  color: #C9C9C9;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.form-wrapper-file {
+  margin-top: 2em;
+  position: relative;
+  border: 1px solid #C9C9C9;
+  background-color: #fff;
+  width: 100%;
+  height: 66px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: .5em 1em;
+}
+
+.form-wrapper-file i {
+  color: #C9A664;
+  font-size: 1.3rem;
+}
+
+.form-wrapper-file span {
+  color: #C9C9C9;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.form-wrapper-file input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.form-wrapper-submit {
+  position: relative;
+  margin-top: 2em;
+  display: block;
+  width: 248px;
+  height: 57px;
+  color: #fff;
+  background-color: #C9A664;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.form-wrapper-submit:hover {
+  background-color: #121619;
+  color: #fff;
+}
+
+.form-wrapper-submit p {
+  font-size: 14px;
+}
+
+.form-wrapper-submit span {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.form-wrapper-submit input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.form img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.form .container {
+  position: relative;
+  z-index: 222;
+  margin-left: 3em;
+}
+/*# sourceMappingURL=main.css.map */

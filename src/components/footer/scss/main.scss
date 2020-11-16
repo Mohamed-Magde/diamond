@@ -1,0 +1,16 @@
+$primary : #C9A664;
+$secondary : #121619;
+$light-grey : #C9C9C9;
+
+.footer {
+  height: 379px;
+  background-color: $secondary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 130px;
+    height: 150px;
+  }
+}

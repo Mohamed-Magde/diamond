@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.contact {
+  position: relative;
+  height: 379px;
+}
+
+.contact img {
+  position: absolute;
+  top: 0;
+  left: -2.5%;
+  height: 100%;
+  width: 105%;
+  height: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.contact .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 22;
+}
+
+.contact .container p {
+  font-size: 24px;
+  color: #C9A664;
+  font-weight: 200;
+}
+
+.contact .container span {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 200;
+}
+/*# sourceMappingURL=main.css.map */

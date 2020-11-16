@@ -1,3 +1,48 @@
 $primary : #C9A664;
 $secondary : #121619;
 $light-grey : #C9C9C9;
+
+.contact {
+  position: relative;
+  height: 379px;
+
+
+
+
+
+  img {
+    position: absolute;
+    top: 0;
+    left: -2.5%;
+    height: 100%;
+    width: 105%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    position: relative;
+    z-index: 22;
+
+    p {
+      font-size: 24px;
+      color: $primary;
+      font-weight: 200;
+    }
+
+    span {
+      display: block;
+      font-size: 18px;
+      color: #fff;
+      font-weight: 200;
+    }
+  }
+}

@@ -76,6 +76,7 @@
   display: block;
   -webkit-animation: round 1s;
           animation: round 1s;
+  cursor: pointer;
 }
 
 .faqs-left-block-desc {
