@@ -269,7 +269,7 @@
             flex-direction: column;
   }
   .form-wrapper textarea {
-    width: 95%;
+    width: 90%;
     display: block;
     height: 117px;
     padding: 1em;
@@ -277,27 +277,27 @@
     border: 1px solid #c9c9c9;
     background-color: #fff;
     resize: none;
-    margin-top: 2em;
+    margin-top: 1em;
     font-family: inherit;
   }
   .form-wrapper textarea::-webkit-input-placeholder {
     color: #c9c9c9;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
   }
   .form-wrapper textarea:-ms-input-placeholder {
     color: #c9c9c9;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
   }
   .form-wrapper textarea::-ms-input-placeholder {
     color: #c9c9c9;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
   }
   .form-wrapper textarea::placeholder {
     color: #c9c9c9;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
   }
   .form-wrapper-flex {
@@ -319,7 +319,7 @@
   }
   .form-wrapper-flex input {
     width: 90%;
-    height: 64px;
+    height: 40px;
     border: 1px solid #c9c9c9;
     background-color: #fff;
     margin-bottom: 1em;
@@ -327,25 +327,25 @@
   }
   .form-wrapper-flex input::-webkit-input-placeholder {
     color: #c9c9c9;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
     font-weight: 200;
   }
   .form-wrapper-flex input:-ms-input-placeholder {
     color: #c9c9c9;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
     font-weight: 200;
   }
   .form-wrapper-flex input::-ms-input-placeholder {
     color: #c9c9c9;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
     font-weight: 200;
   }
   .form-wrapper-flex input::placeholder {
     color: #c9c9c9;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
     font-weight: 200;
   }
@@ -355,7 +355,7 @@
     border: 1px solid #c9c9c9;
     background-color: #fff;
     width: 90%;
-    height: 66px;
+    height: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -373,7 +373,7 @@
   }
   .form-wrapper-file span {
     color: #c9c9c9;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
   }
   .form-wrapper-file input {

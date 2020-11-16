@@ -201,7 +201,7 @@ $light-grey: #c9c9c9;
       flex-direction: column;
 
       textarea {
-        width: 95%;
+        width: 90%;
         display: block;
         height: 117px;
 
@@ -210,12 +210,12 @@ $light-grey: #c9c9c9;
         border: 1px solid #c9c9c9;
         background-color: #fff;
         resize: none;
-        margin-top: 2em;
+        margin-top: 1em;
         font-family: inherit;
 
         &::placeholder {
           color: #c9c9c9;
-          font-size: 1rem;
+          font-size: 1.5rem;
           text-transform: capitalize;
         }
       }
@@ -230,7 +230,7 @@ $light-grey: #c9c9c9;
 
         input {
           width: 90%;
-          height: 64px;
+          height: 40px;
           border: 1px solid #c9c9c9;
           background-color: #fff;
 
@@ -238,7 +238,7 @@ $light-grey: #c9c9c9;
 
           &::placeholder {
             color: #c9c9c9;
-            font-size: 1rem;
+            font-size: 1.5rem;
             text-transform: capitalize;
             font-weight: 200;
           }
@@ -253,7 +253,7 @@ $light-grey: #c9c9c9;
         border: 1px solid #c9c9c9;
         background-color: #fff;
         width: 90%;
-        height: 66px;
+        height: 40px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -266,7 +266,7 @@ $light-grey: #c9c9c9;
 
         span {
           color: #c9c9c9;
-          font-size: 1rem;
+          font-size: 1.5rem;
           text-transform: capitalize;
         }
 

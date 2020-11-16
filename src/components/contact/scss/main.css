@@ -13,6 +13,8 @@
   display: block;
   padding: 0;
   margin: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .contact .container {

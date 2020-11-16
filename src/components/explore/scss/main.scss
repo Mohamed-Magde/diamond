@@ -1,7 +1,6 @@
-$primary : #C9A664;
-$secondary : #121619;
-$light-grey : #C9C9C9;
-
+$primary: #c9a664;
+$secondary: #121619;
+$light-grey: #c9c9c9;
 
 .explore {
   display: flex;
@@ -9,17 +8,21 @@ $light-grey : #C9C9C9;
   margin-bottom: 4em;
   margin-top: 4em;
   position: relative;
-  background-color: #F1F0F5;
+  background-color: #f1f0f5;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
 
     left: 35%;
     height: 100%;
-    background-image: linear-gradient(to right, rgba(#F1F0F5, 1), rgba(#F1F0F5, .2));
+    background-image: linear-gradient(
+      to right,
+      rgba(#f1f0f5, 1),
+      rgba(#f1f0f5, 0.2)
+    );
     width: 5%;
-    box-shadow: 10px 0px 10px rgba(#F1F0F5, .1);
+    box-shadow: 10px 0px 10px rgba(#f1f0f5, 0.1);
   }
 
   &-bg {
@@ -31,8 +34,6 @@ $light-grey : #C9C9C9;
   }
 
   figcaption {
-
-
     position: absolute;
     left: 0;
     top: 0;
@@ -48,7 +49,7 @@ $light-grey : #C9C9C9;
     p {
       width: 540px;
       font-size: 18px;
-      margin-bottom: .5em;
+      margin-bottom: 0.5em;
       margin-top: 1.5em;
     }
 
@@ -67,7 +68,7 @@ $light-grey : #C9C9C9;
       align-items: center;
       justify-content: center;
       text-align: center;
-      transition: all .5s;
+      transition: all 0.5s;
       border: 2px solid $primary;
 
       &:hover {
@@ -89,7 +90,6 @@ $light-grey : #C9C9C9;
   }
 }
 
-
 @media only screen and (max-width: 600px) {
   .explore {
     display: flex;
@@ -97,17 +97,21 @@ $light-grey : #C9C9C9;
     margin-bottom: 4em;
     margin-top: 4em;
     position: relative;
-    background-color: #F1F0F5;
+    background-color: #f1f0f5;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
 
-      left: 35%;
+      left: 0%;
       height: 100%;
-      background-image: linear-gradient(to right, rgba(#F1F0F5, 1), rgba(#F1F0F5, .2));
-      width: 5%;
-      box-shadow: 10px 0px 10px rgba(#F1F0F5, .1);
+      background-image: linear-gradient(
+        to right,
+        rgba(#f1f0f5, 1),
+        rgba(#f1f0f5, 0.2)
+      );
+      width: 100%;
+      box-shadow: 10px 0px 10px rgba(#f1f0f5, 0.1);
     }
 
     &-bg {
@@ -119,16 +123,14 @@ $light-grey : #C9C9C9;
     }
 
     figcaption {
-
       text-align: center;
 
       width: 100%;
 
-
       p {
         width: 100%;
         font-size: 18px;
-        margin-bottom: .5em;
+        margin-bottom: 0.5em;
         margin-top: 1.5em;
       }
 
@@ -140,7 +142,6 @@ $light-grey : #C9C9C9;
       .btn-primary {
         margin: 0 auto;
         margin-top: 1.5em;
-
       }
     }
   }

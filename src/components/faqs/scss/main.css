@@ -21,7 +21,7 @@
 
 .faqs-left-title span {
   font-size: 18px;
-  color: #C9A664;
+  color: #c9a664;
 }
 
 .faqs-left-title p {
@@ -29,11 +29,11 @@
 }
 
 .faqs-left-block {
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   height: 174px;
   margin-top: 1em;
-  border: 2px solid #C9A664;
+  border: 2px solid #c9a664;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,7 +71,7 @@
 }
 
 .faqs-left-block-title i {
-  color: #C9A664;
+  color: #c9a664;
   font-size: 1.3rem;
   display: block;
   -webkit-animation: round 1s;
@@ -86,9 +86,9 @@
 }
 
 .faqs-left-block-desc::after {
-  content: '';
+  content: "";
   position: absolute;
-  top: -.5em;
+  top: -0.5em;
   left: 0;
   width: 100%;
   height: 1px;
@@ -96,7 +96,7 @@
 }
 
 .faqs-left-block-desc p {
-  color: #C9C9C9;
+  color: #c9c9c9;
 }
 
 .faqs .hidden {
@@ -104,8 +104,8 @@
           transform: translateY(-100%);
   width: 90%;
   position: absolute;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   z-index: -11;
   opacity: 0;
 }
@@ -116,8 +116,8 @@
 
 .faqs-low {
   height: 82px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   padding: 0;
 }
 
@@ -207,17 +207,17 @@
   }
   .faqs-left-title span {
     font-size: 18px;
-    color: #C9A664;
+    color: #c9a664;
   }
   .faqs-left-title p {
     font-size: 30px;
   }
   .faqs-left-block {
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
     height: 174px;
     margin-top: 1em;
-    border: 2px solid #C9A664;
+    border: 2px solid #c9a664;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -249,11 +249,11 @@
   }
   .faqs-left-block-title span {
     display: block;
-    font-size: 18px;
+    font-size: 14px;
   }
   .faqs-left-block-title i {
-    color: #C9A664;
-    font-size: 1.3rem;
+    color: #c9a664;
+    font-size: 3rem;
     display: block;
     -webkit-animation: round 1s;
             animation: round 1s;
@@ -265,24 +265,25 @@
     margin: 0 auto;
   }
   .faqs-left-block-desc::after {
-    content: '';
+    content: "";
     position: absolute;
-    top: -.5em;
+    top: -0.5em;
     left: 0;
     width: 100%;
     height: 1px;
     background-color: rgba(112, 112, 112, 0.4);
   }
   .faqs-left-block-desc p {
-    color: #C9C9C9;
+    color: #707070;
+    font-size: 14px;
   }
   .faqs .hidden {
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
     width: 90%;
     position: absolute;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
     z-index: -11;
     opacity: 0;
   }
@@ -291,8 +292,8 @@
   }
   .faqs-low {
     height: 82px;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
     padding: 0;
   }
   .faqs-low .faqs-left-block-title {
