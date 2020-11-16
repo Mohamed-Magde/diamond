@@ -1,0 +1,100 @@
+.explore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 597px;
+  margin-bottom: 4em;
+  margin-top: 4em;
+  position: relative;
+  background-color: #F1F0F5;
+}
+
+.explore::after {
+  content: '';
+  position: absolute;
+  left: 35%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f1f0f5), to(rgba(241, 240, 245, 0.2)));
+  background-image: linear-gradient(to right, #f1f0f5, rgba(241, 240, 245, 0.2));
+  width: 5%;
+  -webkit-box-shadow: 10px 0px 10px rgba(241, 240, 245, 0.1);
+          box-shadow: 10px 0px 10px rgba(241, 240, 245, 0.1);
+}
+
+.explore-bg {
+  width: 65%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: 0;
+}
+
+.explore figcaption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 22;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 4em;
+}
+
+.explore figcaption p {
+  width: 540px;
+  font-size: 18px;
+  margin-bottom: .5em;
+  margin-top: 1.5em;
+}
+
+.explore figcaption img {
+  width: 63.96px;
+}
+
+.explore figcaption .btn-primary {
+  margin-top: 1.5em;
+  display: block;
+  width: 248px;
+  height: 60px;
+  color: #C9A664;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  border: 2px solid #C9A664;
+}
+
+.explore figcaption .btn-primary:hover {
+  background-color: #C9A664;
+  color: #121619;
+}
+
+.explore figcaption .btn-primary p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.explore figcaption .btn-primary span {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */

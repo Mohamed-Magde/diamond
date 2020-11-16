@@ -15,8 +15,9 @@ function App() {
       <Banner />
       <About />
       <Steps />
-      <Custom />
       <Explore />
+      <Custom />
+
       <FAQS />
       <Contact />
       <Form />

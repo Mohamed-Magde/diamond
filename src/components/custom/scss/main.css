@@ -1,0 +1,114 @@
+.custom {
+  margin-bottom: 4em;
+  color: #121619;
+}
+
+.custom-title {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.custom-title span {
+  font-size: 18px;
+  color: #C9A664;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.custom-title p {
+  font-size: 30px;
+}
+
+.custom-desc {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.custom-desc p {
+  font-size: 14px;
+}
+
+.custom-desc span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.custom-wrapper {
+  height: 296px !important;
+  position: relative;
+}
+
+.custom-wrapper-slider-item {
+  height: 100%;
+  height: 296px !important;
+}
+
+.custom-wrapper-slider .slide-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #EFEFEF;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.custom-wrapper-slider .slide-flex-content {
+  width: 100%;
+  height: 296px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 3em;
+}
+
+.custom-wrapper-slider .slide-flex-content span {
+  font-size: 21px;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.custom-wrapper-slider .slide-flex-content span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -.5em;
+  background-color: #121619;
+  width: 100%;
+  height: 4px;
+}
+
+.custom-wrapper-btn {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 48px;
+  height: 76px;
+  border: none;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
+}
+
+.custom-wrapper-btn i {
+  color: #C9A664;
+  font-size: 1.2rem;
+}
+
+.custom-wrapper .back {
+  top: 50%;
+  left: 5%;
+}
+
+.custom-wrapper .next {
+  right: 5%;
+  top: 50%;
+}
+/*# sourceMappingURL=main.css.map */
