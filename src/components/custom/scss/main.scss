@@ -54,6 +54,13 @@ $light-grey : #C9C9C9;
         background-color: #EFEFEF;
         align-items: center;
 
+        img {
+          display: block;
+          width: 500px;
+          height: 185px;
+          margin-right: 5em;
+        }
+
         &-content {
           width: 100%;
           height: 296px !important;
@@ -121,7 +128,15 @@ $light-grey : #C9C9C9;
     &-wrapper {
 
 
+      .slide-flex {
 
+        img {
+          display: block;
+          width: 70%;
+          height: 100%;
+          margin-right: 5em;
+        }
+      }
 
 
 

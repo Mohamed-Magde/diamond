@@ -75,6 +75,7 @@ const Custom = () => {
               <i className="fas fa-arrow-right"></i>
             </ButtonNext>
           </CarouselProvider>
+        
         </Fade>
       </div>
     </div>

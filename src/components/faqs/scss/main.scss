@@ -112,6 +112,11 @@ $light-grey: #c9c9c9;
       margin-bottom: 0 !important;
     }
   }
+
+  &-right {
+    width: 445px;
+    height: 688px;
+  }
 }
 
 @keyframes round {
@@ -251,6 +256,10 @@ $light-grey: #c9c9c9;
 
         margin-bottom: 0 !important;
       }
+    }
+
+    &-right {
+      width: 100%;
     }
   }
 }
